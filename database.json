@@ -1,0 +1,154 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "pazia r",
+      "email": "pazia@yahoo.com"
+    },
+    {
+      "email": "sam@gmail.com",
+      "name": "sam w",
+      "id": 2
+    }
+  ],
+  "trips": [
+    {
+      "id": 1,
+      "userId": 1,
+      "location": "New Zealand",
+      "dateOfDeparture": "2021-01-12",
+      "returnDate": "2021-02-02",
+      "transportType": "Plane",
+      "placeOfStay": "Donkey Bay Inn"
+    }
+  ],
+  "costs": [
+    {
+      "id": 1,
+      "tripId": 1,
+      "categoryId": 1,
+      "name": "plane ticket",
+      "cost": 845
+    },
+    {
+      "id": 2,
+      "tripId": 1,
+      "categoryId": 2,
+      "name": "Donkey Bay Inn",
+      "cost": 308
+    },
+    {
+      "id": 3,
+      "tripId": 1,
+      "categoryId": 3,
+      "name": "Food!",
+      "cost": 500
+    },
+    {
+      "id": 4,
+      "tripId": 1,
+      "categoryId": 4,
+      "name": "shopping",
+      "cost": 300
+    },
+    {
+      "id": 5,
+      "tripId": 1,
+      "categoryId": 5,
+      "name": "LOTR movie set tours",
+      "cost": 150
+    },
+    {
+      "id": 6,
+      "tripId": 1,
+      "categoryId": 6,
+      "name": "money for any accidents",
+      "cost": 300
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "transportation"
+    },
+    {
+      "id": 2,
+      "name": "hotel/where you plan on staying"
+    },
+    {
+      "id": 3,
+      "name": "food"
+    },
+    {
+      "id": 4,
+      "name": "shopping"
+    },
+    {
+      "id": 5,
+      "name": "activities"
+    },
+    {
+      "id": 6,
+      "name": "emergencies"
+    }
+  ],
+  "packing": [
+    {
+      "id": 1,
+      "userId": 1,
+      "tripId": 1,
+      "packingCategoryId": 1,
+      "name": "summer clothes"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "tripId": 1,
+      "packingCategoryId": 2,
+      "name": "scopolamine"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "tripId": 1,
+      "packingCategoryId": 3,
+      "name": "deodorant"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "tripId": 1,
+      "packingCategoryId": 4,
+      "name": "phone"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "tripId": 1,
+      "packingCategoryId": 5,
+      "name": "neck pillow"
+    }
+  ],
+  "packingCategory": [
+    {
+      "id": 1,
+      "name": "clothes"
+    },
+    {
+      "id": 2,
+      "name": "medicine"
+    },
+    {
+      "id": 3,
+      "name": "toiletries"
+    },
+    {
+      "id": 4,
+      "name": "entertainment"
+    },
+    {
+      "id": 5,
+      "name": "other"
+    }
+  ]
+}
