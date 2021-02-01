@@ -20,6 +20,15 @@
       "returnDate": "2021-02-02",
       "transportType": "Plane",
       "placeOfStay": "Donkey Bay Inn"
+    },
+    {
+      "userId": 2,
+      "location": "New York",
+      "dateOfDeparture": "2021-05-08",
+      "returnDate": "2021-05-10",
+      "transportType": "Plane",
+      "placeOfStay": "Staying with my friends",
+      "id": 2
     }
   ],
   "costs": [
