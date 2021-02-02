@@ -29,6 +29,15 @@
       "transportType": "Plane",
       "placeOfStay": "Staying with my friends",
       "id": 2
+    },
+    {
+      "userId": 1,
+      "location": "California",
+      "dateOfDeparture": "2021-08-07",
+      "returnDate": "2021-08-12",
+      "transportType": "Plane",
+      "placeOfStay": "Staying with my uncle",
+      "id": 3
     }
   ],
   "costs": [
