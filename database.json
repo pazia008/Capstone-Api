@@ -94,6 +94,13 @@
       "name": "In case I go to jail",
       "cost": "200",
       "id": 9
+    },
+    {
+      "tripId": 2,
+      "categoryId": 5,
+      "name": "empire state building",
+      "cost": "100,000,000",
+      "id": 10
     }
   ],
   "category": [
@@ -125,38 +132,51 @@
   "packing": [
     {
       "id": 1,
-      "userId": 1,
       "tripId": 1,
       "packingCategoryId": 1,
       "name": "summer clothes"
     },
     {
       "id": 2,
-      "userId": 1,
       "tripId": 1,
       "packingCategoryId": 2,
       "name": "scopolamine"
     },
     {
       "id": 3,
-      "userId": 1,
       "tripId": 1,
       "packingCategoryId": 3,
       "name": "deodorant"
     },
     {
       "id": 4,
-      "userId": 1,
       "tripId": 1,
       "packingCategoryId": 4,
       "name": "phone"
     },
     {
       "id": 5,
-      "userId": 1,
       "tripId": 1,
       "packingCategoryId": 5,
       "name": "neck pillow"
+    },
+    {
+      "tripId": 2,
+      "packingCategoryId": 4,
+      "name": "phone",
+      "id": 6
+    },
+    {
+      "tripId": 2,
+      "packingCategoryId": 1,
+      "name": "warm clothes",
+      "id": 7
+    },
+    {
+      "tripId": 2,
+      "packingCategoryId": 3,
+      "name": "deodorant ",
+      "id": 8
     }
   ],
   "packingCategory": [
