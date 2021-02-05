@@ -87,6 +87,13 @@
       "name": "Spending Money$$",
       "cost": "150",
       "id": 8
+    },
+    {
+      "tripId": 2,
+      "categoryId": 6,
+      "name": "In case I go to jail",
+      "cost": "200",
+      "id": 9
     }
   ],
   "category": [
