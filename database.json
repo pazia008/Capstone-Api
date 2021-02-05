@@ -30,7 +30,6 @@
       "placeOfStay": "Staying with my friends",
       "id": 2
     }
-    
   ],
   "costs": [
     {
@@ -74,6 +73,20 @@
       "categoryId": 6,
       "name": "money for any accidents",
       "cost": 300
+    },
+    {
+      "id": 7,
+      "tripId": 2,
+      "categoryId": 6,
+      "name": "money for any accidents",
+      "cost": 300
+    },
+    {
+      "tripId": 2,
+      "categoryId": 4,
+      "name": "Spending Money$$",
+      "cost": "150",
+      "id": 8
     }
   ],
   "category": [
