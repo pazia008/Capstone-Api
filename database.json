@@ -29,6 +29,15 @@
       "transportType": "Plane",
       "placeOfStay": "Staying with my friends",
       "id": 2
+    },
+    {
+      "userId": 1,
+      "location": "Florida",
+      "dateOfDeparture": "2021-05-07",
+      "returnDate": "2021-05-16",
+      "transportType": "Driving",
+      "placeOfStay": "Staying with my grandma",
+      "id": 3
     }
   ],
   "costs": [
@@ -101,9 +110,30 @@
       "name": "empire state building",
       "cost": "100,000,000",
       "id": 10
+    },
+    {
+      "tripId": 3,
+      "categoryId": 1,
+      "name": "Gas moneyyy",
+      "cost": "200",
+      "id": 11
+    },
+    {
+      "tripId": 3,
+      "categoryId": 3,
+      "name": "Food money!",
+      "cost": "100",
+      "id": 12
+    },
+    {
+      "tripId": 3,
+      "categoryId": 5,
+      "name": "Beach time!",
+      "cost": "40",
+      "id": 13
     }
   ],
-  "category": [
+  "categories": [
     {
       "id": 1,
       "name": "transportation"
@@ -129,7 +159,7 @@
       "name": "emergencies"
     }
   ],
-  "packing": [
+  "packs": [
     {
       "id": 1,
       "tripId": 1,
@@ -177,9 +207,21 @@
       "packingCategoryId": 3,
       "name": "deodorant ",
       "id": 8
+    },
+    {
+      "tripId": 3,
+      "packingCategoryId": 1,
+      "name": "Summer clothes/swimsuits",
+      "id": 9
+    },
+    {
+      "tripId": 3,
+      "packingCategoryId": 4,
+      "name": "phone",
+      "id": 10
     }
   ],
-  "packingCategory": [
+  "packingCategories": [
     {
       "id": 1,
       "name": "clothes"
