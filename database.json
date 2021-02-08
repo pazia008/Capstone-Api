@@ -9,6 +9,11 @@
       "email": "sam@gmail.com",
       "name": "sam w",
       "id": 2
+    },
+    {
+      "email": "creedsthoughts@gmail.com",
+      "name": "Creed Braton",
+      "id": 3
     }
   ],
   "trips": [
@@ -38,6 +43,15 @@
       "transportType": "Driving",
       "placeOfStay": "Staying with my grandma",
       "id": 3
+    },
+    {
+      "userId": 3,
+      "location": "Scranton, the Electric City",
+      "dateOfDeparture": "2021-06-01",
+      "returnDate": "2021-06-12",
+      "transportType": "Driving",
+      "placeOfStay": "My House",
+      "id": 4
     }
   ],
   "costs": [
@@ -131,6 +145,13 @@
       "name": "Beach time!",
       "cost": "40",
       "id": 13
+    },
+    {
+      "tripId": 4,
+      "categoryId": 5,
+      "name": "Scuba",
+      "cost": "150",
+      "id": 14
     }
   ],
   "categories": [
@@ -219,6 +240,12 @@
       "packingCategoryId": 4,
       "name": "phone",
       "id": 10
+    },
+    {
+      "tripId": 4,
+      "packingCategoryId": 1,
+      "name": "Swimwear",
+      "id": 11
     }
   ],
   "packingCategories": [
