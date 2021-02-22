@@ -14,6 +14,11 @@
       "email": "creedsthoughts@gmail.com",
       "name": "Creed Braton",
       "id": 3
+    },
+    {
+      "email": "meeps4sarah@gmail.com",
+      "name": "Sarah Meep",
+      "id": 4
     }
   ],
   "trips": [
@@ -36,15 +41,6 @@
       "id": 2
     },
     {
-      "userId": 1,
-      "location": "Florida",
-      "dateOfDeparture": "2021-05-07",
-      "returnDate": "2021-05-16",
-      "transportType": "Driving",
-      "placeOfStay": "Staying with my grandma",
-      "id": 3
-    },
-    {
       "userId": 3,
       "location": "Scranton, the Electric City",
       "dateOfDeparture": "2021-06-01",
@@ -52,6 +48,15 @@
       "transportType": "Driving",
       "placeOfStay": "My House",
       "id": 4
+    },
+    {
+      "userId": 1,
+      "location": "Florida",
+      "dateOfDeparture": "2021-02-01",
+      "returnDate": "2021-02-06",
+      "transportType": "Drive",
+      "placeOfStay": "Stay with gma",
+      "id": 5
     }
   ],
   "costs": [
@@ -126,32 +131,32 @@
       "id": 10
     },
     {
-      "tripId": 3,
-      "categoryId": 1,
-      "name": "Gas moneyyy",
-      "cost": "200",
-      "id": 11
-    },
-    {
-      "tripId": 3,
-      "categoryId": 3,
-      "name": "Food money!",
-      "cost": "100",
-      "id": 12
-    },
-    {
-      "tripId": 3,
-      "categoryId": 5,
-      "name": "Beach time!",
-      "cost": "40",
-      "id": 13
-    },
-    {
       "tripId": 4,
       "categoryId": 5,
       "name": "Scuba",
       "cost": "150",
       "id": 14
+    },
+    {
+      "tripId": 5,
+      "categoryId": 4,
+      "name": "shoppin'",
+      "cost": "50",
+      "id": 15
+    },
+    {
+      "tripId": 5,
+      "categoryId": 5,
+      "name": "beach",
+      "cost": "25",
+      "id": 16
+    },
+    {
+      "tripId": 5,
+      "categoryId": 6,
+      "name": "Emergencies",
+      "cost": "200",
+      "id": 17
     }
   ],
   "categories": [
@@ -230,22 +235,28 @@
       "id": 8
     },
     {
-      "tripId": 3,
-      "packingCategoryId": 1,
-      "name": "Summer clothes/swimsuits",
-      "id": 9
-    },
-    {
-      "tripId": 3,
-      "packingCategoryId": 4,
-      "name": "phone",
-      "id": 10
-    },
-    {
       "tripId": 4,
       "packingCategoryId": 1,
       "name": "Swimwear",
       "id": 11
+    },
+    {
+      "tripId": 5,
+      "packingCategoryId": 1,
+      "name": "swimsuits",
+      "id": 12
+    },
+    {
+      "tripId": 5,
+      "packingCategoryId": 5,
+      "name": "phone & phone charger",
+      "id": 13
+    },
+    {
+      "tripId": 5,
+      "packingCategoryId": 3,
+      "name": "toothbrush & toothpaste",
+      "id": 14
     }
   ],
   "packingCategories": [
